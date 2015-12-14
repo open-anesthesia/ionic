@@ -84,10 +84,10 @@ function($timeout, $compile, $ionicSlideBoxDelegate, $ionicHistory, $ionicScroll
           $timeout(function() {});
         },
         onDrag: function() {
-          freezeAllScrolls(true);
+          //freezeAllScrolls(true);
         },
         onDragEnd: function() {
-          freezeAllScrolls(false);
+          //freezeAllScrolls(false);
         }
       });
 
